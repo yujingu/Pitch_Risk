@@ -49,6 +49,7 @@ def SxA(x,y):
     y=(y-25.2317529)/math.sqrt(194.295050)
     G=(G-0.00675608983)/math.sqrt(0.0014388397)
     
+    #modeled by logistic regression using 2.7 million events (these data were obtained from https://github.com/koenvo/wyscout-soccer-match-event-dataset/blob/main/raw_data/events.zip)
     z=-8.67108158-1.85487057*x-0.43115795*y-0.25692468*G+0.19006112*x*y+0.25620965*x**2-0.1446175*y**2
     return 1/(1+np.exp(-z))
 
