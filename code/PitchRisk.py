@@ -69,8 +69,8 @@ def Pitch_Risk(at,PPCF):
     xG_array=make_xG()
     SxA_array=make_SxA()
     
+    #Check the direction of attack
     if at=='Away':
-        #右側のゴールに向かうとき
         xG_array=np.rot90(xG_array,2)
         SxA_array=np.rot90(SxA_array,2)
         
