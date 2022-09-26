@@ -1,5 +1,11 @@
 # Pitch_Risk
 
+### version
+
+python:3.9.0
+
+numpy:1.20.3
+
 ## code/example.ipynb
 
 In this file you can see an example by running.
